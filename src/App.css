@@ -1,0 +1,86 @@
+:root {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #0f172a; /* Dark Navy */
+  color: #f8fafc;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(to right, #38bdf8, #818cf8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2{
+  color: #db7f60;
+}
+.card {
+  background: #1e293b;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #334155;
+  margin-top: 2rem;
+}
+
+code {
+  background: #000;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  color: #fbbf24;
+}
+section{
+  padding: 20px 0px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #eae5e5;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #1e456e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6ba4e0;
+}
+
+.main_content{
+  display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
